@@ -1,0 +1,35 @@
+{
+    "model_name": "Tuned Random Forest",
+    "saved_at": "2026-10-07T17:46:26.205789",
+    "selected_search_method": "Optuna",
+    "best_params": {
+        "n_estimators": 175,
+        "max_depth": 12
+    },
+    "cv_mean": 0.8212542415716282,
+    "cv_std": 0.06428073023916543,
+    "test_r2": 0.8910932915341476,
+    "baseline_model": {
+        "n_estimators": 100,
+        "max_depth": null,
+        "random_state": 42,
+        "n_jobs": -1
+    },
+    "tuned_candidate": {
+        "params": {
+            "n_estimators": 175,
+            "max_depth": 12
+        },
+        "search_method": "Optuna"
+    },
+    "tuning_comparison": {
+        "baseline_train_r2_mean": 0.9736781487775229,
+        "baseline_validation_r2_mean": 0.8190106975986836,
+        "baseline_validation_r2_std": 0.07036957021229155,
+        "tuned_train_r2_mean": 0.9726922785657429,
+        "tuned_validation_r2_mean": 0.8212542415716282,
+        "tuned_validation_r2_std": 0.06428073023916543,
+        "r2_difference": 0.0022435439729445728
+    },
+    "cv_test_difference": -0.06983904996251944
+}
